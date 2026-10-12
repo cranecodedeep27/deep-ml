@@ -8,8 +8,7 @@ def make_diagonal(x):
 			while p != i:
 				lst.append(0)
 				p += 1
-		if i == p:
-			lst.append(x[i])
+		lst.append(x[i])
 		p = len(x) - i - 1
 		while p != 0:
 			lst.append(0)

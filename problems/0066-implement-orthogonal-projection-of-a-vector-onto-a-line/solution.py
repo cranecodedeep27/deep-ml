@@ -4,7 +4,6 @@ def orthogonal_projection(v, L):
 	for i in range(len(v)):
 		scalar_multi += v[i] * L[i]
 	# найдём длину вектора L
-	lenght_L = (L[0] ** 2 + L[1] ** 2)
 	lenght_L = 0
 	for i in range(len(v)):
 		lenght_L += L[i] ** 2
